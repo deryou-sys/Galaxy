@@ -1,7 +1,0 @@
-name: Build Geode Mod
-on: [push, workflow_dispatch]
-jobs:
-  build:
-    uses: geode-sdk/build-geode-mod/.github/workflows/main.yml@main
-    with:
-      combine: true
